@@ -1,0 +1,36 @@
+#container{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+/* DEIXAR EM COLUNA*/
+.flex-wrap{
+    flex-wrap: wrap;
+}
+/* Força quebra de linha*/
+.flex-item-1{
+    flex: 1;
+}
+.item{
+    margin: 5px;
+    background: rgb(39, 92, 34);
+    text-align: center;
+    font-size: 1.5em;
+}
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+ border: 1px solid #ccc;
+}
+h1{
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+body{
+    font-family: monospace;
+    color:bisque;
+}
